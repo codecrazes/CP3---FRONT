@@ -1,6 +1,11 @@
 .fundo-login{
     background-color: #080710;
 }
+
+.fundo-index{
+    background-color: #080710;
+    
+}
 .background{
     width: 430px;
     height: 520px;
@@ -71,4 +76,27 @@ input{
     color: #ffffff;
     text-align: center;
     font-size: 60px;
+}
+
+.btn-index{
+
+    display: block;
+    width: 20%;
+    background-color: #ffffff;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    margin: 0 auto;
+    top: 40vh;
+} 
+
+.titulo-index{
+    color: #ffffff;
+    text-align: center;
+    font-size: 60px;
+
 }
