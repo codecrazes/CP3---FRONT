@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="main.js"  defer></script>
+    <title>CP3 - FRONT</title>
+</head>
+
+<body class="fundo-login">
+    
+    <header id="topo">
+        <h1 class="titulo-login" id="titulo">LOGIN</h1>
+    </header> 
+    <div>
+        <p class="valida"></p>
+    </div>
+    <div class="page-login">
+        <form action="#" method="get" onsubmit="return validaLogin(idEmail,idSenha,event)">
+                <div>
+                    <label for="idEmail"></label>
+                    <input class="email" type="email" name="txtEmail" id="idEmail" placeholder="Digite seu email" minlength="7" oninvalid="this.setCustomValidity('Caractéres insuficientes.');">
+                </div> 
+                <div>
+                    <label for="idSenha"></label>
+                    <input class="password" type="password" name="txtSenha" id="idSenha" placeholder="Digite sua senha">
+                </div>
+                <div>
+                    <button class="btn-login" type="submit">Logar</button>
+                </div>
+ 
+        </form>
+    </div>
+</div>
+            
+    
+</body>                     
+</html>
