@@ -4,7 +4,7 @@ let listaUsuarios = [
     {nome:"Caroline Assis", email:"assis@gmail.com", senha:"789"},
 ]
  
-function validaLogin(input1,input2,event) {
+function validaLogin(input1,input2) {
 
     let msgStatus;
     try{
@@ -23,6 +23,8 @@ for (let x = 0; x < listaUsuarios.length; x++) {
         },1000);
         
         return true;
+
+       
     }
 }
     msgStatus.setAttribute("class","erro");
@@ -36,6 +38,11 @@ for (let x = 0; x < listaUsuarios.length; x++) {
 }catch(error){
     msgStatus = ( document.querySelector(".sucesso") ? document.querySelector(".sucesso") : document.querySelector(".erro"));
 }
-
     return false;
+    
 }
+
+function volta(){
+    history.back();
+}
+ 
