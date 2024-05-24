@@ -1,9 +1,7 @@
 ## NOMES DOS INTEGRANTES:
 
- Caroline Assis Silva (557596)
  Enzo de Moura Silva (556532)
- Luis Henrique Cardoso (558883)
-
+ 
 ## CONTAS CADASTRADAS:
 
  e-mail: enzoo@gmail.com
